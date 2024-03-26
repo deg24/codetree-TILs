@@ -6,7 +6,8 @@ int main() {
     int a = 3
     int b = "C"
 
-    cout << a << endl << b;
+    cout << a << endl;
+    cout << b;
 
     return 0;
 }
