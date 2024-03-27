@@ -13,6 +13,6 @@ int main() {
     s = t;
     t = c;
 
-    cout << t << endl << s;
+    cout << s << endl << t;
     return 0;
 }
