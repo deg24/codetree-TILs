@@ -2,9 +2,11 @@
 using namespace std;
 
 int main() {
-    int a, b, c;
+    int a = 0;
+    int b = 0;
+    int c = 0;
 
-    cin a >> b >> c;
+    cin >> a >> b >> c;
 
     cout << a << " " << b << " " << c;
     return 0;
