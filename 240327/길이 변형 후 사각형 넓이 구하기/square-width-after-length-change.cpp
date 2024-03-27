@@ -6,6 +6,6 @@ int main() {
     cin >> wid >> leng;
     wid += 8;
     leng *= 3;
-    ccout << wid << endl << leng << endl << wid * leng;
+    cout << wid << endl << leng << endl << wid * leng;
     return 0;
 }
