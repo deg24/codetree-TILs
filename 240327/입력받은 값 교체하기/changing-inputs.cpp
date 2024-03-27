@@ -4,7 +4,10 @@ using namespace std;
 int main() {
     int a = 0;
     int b = 0;
-    int temp;
+    int temp = 0;
+
+    cin >> a >> b;
+
     temp = a;
     a = b;
     b = temp;
