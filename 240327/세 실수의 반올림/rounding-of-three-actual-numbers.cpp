@@ -10,6 +10,6 @@ int main() {
     cout.precision(3);
 
     cin >> a >> b >> c;
-    cout << a << b << c;
+    cout << a << endl << b << endl << c;
     return 0;
 }
