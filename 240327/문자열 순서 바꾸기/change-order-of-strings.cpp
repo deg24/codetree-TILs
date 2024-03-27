@@ -7,7 +7,8 @@ int main() {
     string t;
     string c;
 
-    cin >> s >> t;
+    cin >> s >> t >> c;
+
     c = s;
     s = t;
     t = c;
