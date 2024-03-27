@@ -6,6 +6,6 @@ int main() {
 
     cin >> score;
 
-    cout <<  "Your score is " << score << " point."
+    cout <<  "Your score is " << score << " point.";
     return 0;
 }
