@@ -6,7 +6,7 @@ int main() {
     int h, w, b;
     cin >> h >> w;
     b = 10000*w/(h*h);
-    cout << b;
+    cout << b << endl;
     if (b >= 25) {
         cout << "Obesity";
     }
