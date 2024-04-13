@@ -7,10 +7,10 @@ int main() {
     cin >> n;
 
     if(a>=113){
-        cout << 1;
+        cout << "1";
     }
     else {
-        cout << 0;
+        cout << "0";
     }
 
     return 0;
