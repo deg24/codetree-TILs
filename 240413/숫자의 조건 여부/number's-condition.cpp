@@ -6,7 +6,7 @@ int main() {
 
     cin >> n;
 
-    if(a>=113){
+    if(n>=113){
         cout << "1";
     }
     else {
