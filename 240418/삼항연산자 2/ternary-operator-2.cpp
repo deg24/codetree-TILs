@@ -7,7 +7,7 @@ int main() {
 
     cin >> a;
 
-    b = (a==1) ? "t":"f";
+    b = ((a==1) ? "t":"f");
 
     cout << b;
 
