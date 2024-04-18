@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    int n;
+    int n, a;
 
     cin >> n;
 
-    cout << (n==100) ? "pass" : "failure";
+    a = (n==100) ? "pass" : "failure";
 
-
+    cout << a;
 
     return 0;
 }
