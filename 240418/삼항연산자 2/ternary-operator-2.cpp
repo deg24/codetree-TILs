@@ -3,13 +3,10 @@ using namespace std;
 
 int main() {
     int a;
-    char b;
 
     cin >> a;
 
-    b = ((a==1) ? "t":"f");
-
-    cout << b;
+    cout << ((a==1) ? "t":"f");
 
 
     return 0;
