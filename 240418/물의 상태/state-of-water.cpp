@@ -7,13 +7,13 @@ int main() {
     cin >> n;
 
     if (n<0) {
-        cout << ice;
+        cout << "ice";
     }
     else if (n<100) {
-        cout << water;
+        cout << "water";
     }
     else {
-        cout << vapor;
+        cout << "vapor";
     }
 
     return 0;
