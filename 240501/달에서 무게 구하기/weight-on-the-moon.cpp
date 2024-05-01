@@ -5,7 +5,8 @@ int main() {
 
     cout << fixed;
 
-    double a{13}, b{0.165};
+    int a{13};
+    double b{0.165};
 
     cout.precision(6);
 
