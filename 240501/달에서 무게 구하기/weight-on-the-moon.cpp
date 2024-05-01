@@ -2,8 +2,10 @@
 using namespace std;
 
 int main() {
-    double a{13}, b{0.165};
+
     cout << fixed;
+
+    double a{13}, b{0.165};
 
     cout.precision(6);
 
