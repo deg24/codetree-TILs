@@ -12,7 +12,7 @@ int main() {
         }
     }
     for(;j>0;j--){
-        cout << b[j] << " ";
+        cout << b[j-1] << " ";
     }
     return 0;
 }
