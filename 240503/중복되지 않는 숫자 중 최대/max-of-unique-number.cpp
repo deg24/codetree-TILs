@@ -8,12 +8,13 @@ int main() {
     for(int i{0};i<n;i++){
         cin >> a[i];
     }
-    int max{INT_MIN};
-    for(int i{0};i<n;i++){
+    int max{INT_MIN}, not[1000];
+    for(int i{0};max != not[i];i++){
         if(a[i]>max){
             max = a[i];
         }
         else if(a[i] == max){
+            not[i] = a[i];
             max = -1;
         }
     }
