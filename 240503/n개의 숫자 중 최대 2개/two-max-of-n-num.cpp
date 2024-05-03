@@ -3,24 +3,28 @@
 using namespace std;
 
 int main() {
-    int a[100], n{0};
+    int a[100], n{0}, b[100];
     cin >> n;
+
     for(int i{0};i<n;i++){
         cin >> a[i];
     }
-    int max{a[0]};
-    for(int i{1};i<n;i++){
-        if(a[i] > max) {
-            max = a[i];
-            a[i] = INT_MIN;
+
+    for(int j{0};j<n;j++){
+        for(int i{0};i<n;i++){
+            if(a[i] > b[j]) {
+                b[j] = a[i];
+            }
+        }
+        for(int i{0};i<n;i++){
+            if(b[j] == a[i]){
+                a[i] = INT_MIN;
+                break;
+            }
         }
     }
-    int sec{a[0]};
-    for(int i{1};i<n;i++){
-        if(a[i] < max && a[i] > sec){
-            sec = a[i];
-        }
-    }
-    cout << max << " " << sec;
+
+    cout << b[0] << " " << b[1];
+
     return 0;
 }
