@@ -4,10 +4,10 @@ using namespace std;
 int main() {
 	int a, b, c, d;
 	cin >> a >> b >> c >> d;
-	if (a > b)cout << "A";
-	else if (a < b)cout << "B";
-	else if (a == b) {
-		if (c > d)cout << "A";
+	if (a > c)cout << "A";
+	else if (a < c)cout << "B";
+	else if (a == c) {
+		if (b > d)cout << "A";
 		else cout << "B";
 	}
 	return 0;
