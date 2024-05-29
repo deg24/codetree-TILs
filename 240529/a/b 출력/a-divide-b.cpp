@@ -5,10 +5,10 @@ using namespace std;
 int main() {
 	int a, b;
 	cin >> a >> b;
-	cout << fixed;
-	cout.precision(21);
-	int c;
-	c = (double)a / b;
-	cout << floor(c);
+	cout << a / b << ".";
+	for (int i{ 0 }; i < 20; i++) {
+		cout << a * 10 / b;
+		a = a * 10 % b;
+	}
 	return 0;
 }
