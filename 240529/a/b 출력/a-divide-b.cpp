@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -6,6 +7,8 @@ int main() {
 	cin >> a >> b;
 	cout << fixed;
 	cout.precision(21);
-	cout << (double)a / b;
+	int c;
+	c = (double)a / b;
+	cout << floor(c);
 	return 0;
 }
