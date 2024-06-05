@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	int a, b, temp;
 	cin >> a >> b;
-	if (b > a) {
+	if (b < a) {
 		temp = b;
 		b = a;
 		a = temp;
