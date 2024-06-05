@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	cout << fixed;
+	cout.precision(1);
 	int a, b, s=0, n=0;
 	cin >> a >> b;
 	for (int i = a; i <= b; i++) {
