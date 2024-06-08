@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	int a;
-	double n[100], s;
+	int a, s;
+	double n[100];
 	cin >> a;
 	for (int i = 0; i < a; i++) {
 		cin >> n[i];
