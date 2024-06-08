@@ -11,6 +11,6 @@ int main() {
 	}
 	cout << fixed;
 	cout.precision(1);
-	cout << s << " " << s / a;
+	cout << (int)s << " " << s / a;
 	return 0;
 }
