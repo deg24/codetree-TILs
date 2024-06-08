@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int a, s;
+	int a, s=0;
 	double n[100];
 	cin >> a;
 	for (int i = 0; i < a; i++) {
