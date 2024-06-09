@@ -9,6 +9,7 @@ int main() {
 		n = n / i;
 		if (n == 0) {
 			cout << i;
+			break;
 		}
 	}
 	return 0;
