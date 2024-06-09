@@ -7,7 +7,10 @@ int main() {
 		cin >> n;
 		if (n < 25) cout << "Higher\n";
 		if (n > 25) cout << "Lower\n";
-		if (n == 25) cout << "Good"; break;
+		if (n == 25) {
+			cout << "Good";
+			break;
+		}
 	}
 	return 0;
 }
