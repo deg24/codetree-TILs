@@ -7,7 +7,7 @@ int main() {
 	a = n;
 	for (int i = 1; i <= a; i++) {
 		n = n / i;
-		if (n == 0) {
+		if (n <= 1) {
 			cout << i;
 			break;
 		}
