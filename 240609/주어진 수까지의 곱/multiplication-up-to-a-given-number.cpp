@@ -7,5 +7,6 @@ int main() {
 	for (int i = a; i <= b; i++) {
 		p *= i;
 	}
+	cout << p;
 	return 0;
 }
