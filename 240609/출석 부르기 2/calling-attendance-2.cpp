@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int n;
+	int n=1;
 	while (n >= 1 && n <= 4) {
 		cin >> n;
 		if (n == 1) cout << "John\n";
