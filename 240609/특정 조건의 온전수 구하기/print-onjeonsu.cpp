@@ -13,7 +13,7 @@ int main() {
 					cout << i << " ";
 					continue;
 				}
-				cout << i << " ";
+				else cout << i << " ";
 			}
 		}
 	}
