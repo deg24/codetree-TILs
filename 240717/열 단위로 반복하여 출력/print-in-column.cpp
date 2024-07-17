@@ -5,12 +5,12 @@ int main() {
 	int n;
 	cin >> n;
 	
-	for (int i = 0; i < n; i++) {
+	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n; j++) {
 			cout << i;
 		}
 		cout << "\n";
-	}	// 행 단위 반복
+	}	// 열 단위 반복
 	
 	return 0;
 }
