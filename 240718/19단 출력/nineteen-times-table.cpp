@@ -7,6 +7,9 @@ int main() {
 			if (j % 2 == 0) {
 				cout << i << " * " << j << " = " << i * j << "\n";
 			}
+			else if (j == 19) {
+				cout << i << " * " << j << " = " << i * j;
+			}
 			else {
 				cout << i << " * " << j << " = " << i * j << " / ";
 			}
