@@ -8,6 +8,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < i + 1; j++, a++) {
 			cout << (char)a;
+			if (a == 90) a = 64;
 		}
 		cout << "\n";
 	}
