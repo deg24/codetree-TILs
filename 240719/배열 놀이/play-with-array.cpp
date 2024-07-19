@@ -16,15 +16,17 @@ int main() {
 			cout << arr[a - 1] << "\n";
 		}
 		if (k == 2) {
+			int cnt = 0;
 			cin >> b;
 			for (int j = 0; j < n; j++) {
 				if (b == arr[j]) {
 					cout << j + 1 << "\n";
-					continue;
+					cnt++;
+					break;
 				}
-				if (j == n - 1 && b != arr[j]) {
-					cout << 0 << "\n";
-				}
+			}
+			if (cnt == 0) {
+				cout << 0 << "\n";
 			}
 		}
 		if (k == 3) {
