@@ -8,8 +8,8 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		int s = 1;
 		cin >> a >> b;
-		for (int i = a; i <= b; i++) {
-			s *= i;
+		for (int j = a; j <= b; j++) {
+			s *= j;
 		}
 		cout << s << "\n";
 	}
