@@ -21,6 +21,5 @@ int main() {
 	
 	cout << n1 << " " << n2 / cnt;
 
-
 	return 0;
 }
