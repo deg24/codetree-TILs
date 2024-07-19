@@ -22,6 +22,9 @@ int main() {
 					cout << j + 1 << "\n";
 					continue;
 				}
+				if (j == n - 1 && c != a[j]) {
+					cout << 0 << "\n";
+				}
 			}
 		}
 		if (b == 3) {
