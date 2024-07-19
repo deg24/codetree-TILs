@@ -12,7 +12,7 @@ int main() {
 			if (a % 2 == 0) a /= 2;
 			else a = a * 3 + 1;
 		}
-		cout << cnt;
+		cout << cnt << "\n";
 	}
 	
 	return 0;
