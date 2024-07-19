@@ -11,7 +11,7 @@ int main() {
 		for (int i = a; i <= b; i++) {
 			s *= i;
 		}
-		cout << s;
+		cout << s << "\n";
 	}
 	
 	return 0;
