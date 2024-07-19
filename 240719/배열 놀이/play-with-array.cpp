@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int n, q, arr[100] = { 0, }, k, a, b, s, e;
+	int n, q, arr[100] = { 0, }, a, b, s, e;
 	cin >> n >> q;
 
 	for (int i = 0; i < n; i++) {
@@ -10,6 +10,7 @@ int main() {
 	}
 
 	for (int i = 0; i < q; i++) {
+		int k = 0;
 		cin >> k;
 		if (k == 1) {
 			cin >> a;
