@@ -24,6 +24,7 @@ int main() {
 				}
 				if (j == n - 1 && c != a[j]) {
 					cout << 0 << "\n";
+					continue;
 				}
 			}
 		}
