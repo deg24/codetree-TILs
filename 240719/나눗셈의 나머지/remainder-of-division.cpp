@@ -8,7 +8,7 @@ int main() {
 	for (int i = 0; i < 1000; i++) {
 		n[a % b]++;
 		a /= b;
-		if (a == 0) break;
+		if (a < b) break;
 	}
 
 	for (int i = 0; i < 10; i++) {
