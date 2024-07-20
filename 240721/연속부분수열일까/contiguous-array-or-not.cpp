@@ -31,7 +31,9 @@ int main() {
 			}
 			if (cnt == n2 - 1) {
 				res = true;
+				break;
 			}
+			aa++;
 		}
 		else {
 			aa++;
