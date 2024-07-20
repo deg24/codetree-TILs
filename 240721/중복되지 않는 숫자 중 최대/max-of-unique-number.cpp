@@ -16,14 +16,12 @@ int main() {
 			int cnt = 0;
 			for (int j = i + 1; j < n; j++) {
 				if (a[j] == a[i]) {
-					cnt = j;
+					a[j] = 0;
+					cnt = -1;
 				}
 			}
 			if (cnt == 0) {
 				max = a[i];
-			}
-			else {
-				a[cnt] = 0;
 			}
 		}
 	}
