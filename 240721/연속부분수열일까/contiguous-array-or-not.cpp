@@ -21,9 +21,9 @@ int main() {
 		cin >> b[i];
 	}
 
-	int cnt = 0;
-	for (int i = 0, aa = 0, bb = 0; i < n2; i++) {
+	for (int i = 0, aa = 0, bb = 0; i < n1; i++) {
 		if (a[aa] == b[bb]) {
+			int cnt = 0;
 			for (int j = 0; j < n2 - 1; j++) {
 				if (a[aa + j + 1] == b[bb + j + 1]) {
 					cnt++;
