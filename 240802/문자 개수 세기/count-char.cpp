@@ -9,7 +9,7 @@ int main() {
 	cin >> c;
 	int cnt = 0;
 	for (int i = 0; i < s.size(); i++) {
-		if (cnt == c) cnt++;
+		if (s[i] == c) cnt++;
 	}
 	cout << cnt;
 	return 0;
