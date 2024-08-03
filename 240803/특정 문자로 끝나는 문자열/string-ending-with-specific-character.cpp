@@ -12,10 +12,16 @@ int main() {
 	char c;
 	cin >> c;
 
+	bool exist = false;
 	for (int i = 0; i < 10; i++) {
-		if (arr[i][(int)arr[i].size() - 1] == 'c') {
+		if (arr[i][arr[i].size() - 1] == c) {
 			cout << arr[i] << "\n";
+			exist = true;
 		}
+	}
+
+	if (!exist) {
+		cout << "None";
 	}
 
 	return 0;
