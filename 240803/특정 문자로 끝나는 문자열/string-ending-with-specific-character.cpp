@@ -13,8 +13,8 @@ int main() {
 	cin >> c;
 
 	for (int i = 0; i < 10; i++) {
-		if (arr[i][arr[i].size() - 1] == 'c') {
-			cout << arr[i];
+		if (arr[i][(int)arr[i].size() - 1] == 'c') {
+			cout << arr[i] << "\n";
 		}
 	}
 
