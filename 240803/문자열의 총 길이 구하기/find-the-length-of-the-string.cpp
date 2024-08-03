@@ -13,6 +13,6 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		sum += arr[i].size();
 	}
-
+	cout << sum;
 	return 0;
 }
