@@ -12,7 +12,7 @@ int main() {
 		}
 	}
 	else {
-		for (int i = 1, j = s.length(); i <= s.length; i++) {
+		for (int i = 1, j = s.length(); i <= s.length(); i++) {
 			cout << s[j - i];
 		}
 	}
