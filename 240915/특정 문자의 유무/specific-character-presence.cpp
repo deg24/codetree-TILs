@@ -22,7 +22,7 @@ int main() {
 	}
 
 	if (res1) cout << "Yes ";
-	else cout << "NO ";
+	else cout << "No ";
 
 	if (res2) cout << "Yes";
 	else cout << "No";
