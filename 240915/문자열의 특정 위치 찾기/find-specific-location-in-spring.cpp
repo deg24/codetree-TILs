@@ -9,7 +9,7 @@ int main() {
 	cin >> in >> c;
 	int n = in.length();
 	int idx = -1;
-	for (int i = 0; i < n - 1; i++) {
+	for (int i = 0; i < n; i++) {
 		if (in[i] == c) {
 			idx = i;
 		}
