@@ -6,24 +6,21 @@ int main() {
 	string in;
 	cin >> in;
 
-	int n = in.length();
-	bool res1 = false;
-	for (int i = 0; i < n - 1; i++) {
-		if (in[i] == 'e' && in[i + 1] == 'e') {
-			res1 = true;
+	string parts;
+	cin >> parts;
+
+	int i = in.length();
+	int p = parts.length();
+	int idx = -1;
+	for (int i = 0; i < i - p + 1; i++) {
+		bool all = true;
+		for (int j = 0; j < p; i++) {
+			if (in[i] != parts[j]) {
+				all = false;
+			}
 		}
+		if (all) idx = i;
 	}
 
-	bool res2 = false;
-	for (int i = 0; i < n - 1; i++) {
-		if (in[i] == 'a' && in[i + 1] == 'b') {
-			res2 = true;
-		}
-	}
-
-	if (res1) cout << "Yes ";
-	else cout << "No ";
-
-	if (res2) cout << "Yes";
-	else cout << "No";
+	cout << idx;
 }
