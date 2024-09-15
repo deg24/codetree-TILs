@@ -19,7 +19,10 @@ int main() {
 				all = false;
 			}
 		}
-		if (all) idx = i;
+		if (all) {
+			idx = i;
+			break;
+		}
 	}
 
 	cout << idx;
