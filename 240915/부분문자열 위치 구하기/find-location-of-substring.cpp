@@ -14,7 +14,7 @@ int main() {
 	int idx = -1;
 	for (int i = 0; i < i - p + 1; i++) {
 		bool all = true;
-		for (int j = 0; j < p; i++) {
+		for (int j = 0; j < p; j++) {
 			if (in[i] != parts[j]) {
 				all = false;
 			}
