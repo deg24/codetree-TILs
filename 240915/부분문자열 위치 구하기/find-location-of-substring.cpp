@@ -15,7 +15,7 @@ int main() {
 	for (int i = 0; i < i - p + 1; i++) {
 		bool all = true;
 		for (int j = 0; j < p; j++) {
-			if (in[i] != parts[j]) {
+			if (in[i + j] != parts[j]) {
 				all = false;
 			}
 		}
