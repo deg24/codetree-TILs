@@ -9,12 +9,12 @@ int main() {
 	string parts;
 	cin >> parts;
 
-	int i = in.length();
-	int p = parts.length();
+	int a = in.length();
+	int b = parts.length();
 	int idx = -1;
-	for (int i = 0; i < i - p + 1; i++) {
+	for (int i = 0; i < a - b + 1; i++) {
 		bool all = true;
-		for (int j = 0; j < p; j++) {
+		for (int j = 0; j < b; j++) {
 			if (in[i + j] != parts[j]) {
 				all = false;
 			}
