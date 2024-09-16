@@ -9,7 +9,7 @@ int main() {
     int a_len = a.length();
     int b_len = b.length();
 
-    for (int i = 0; i <= a_len - b_len; ) {
+    for (int i = 0; i <= a_len - b_len; i++) {
         bool same = true;
 
         for (int j = 0; j < b_len; j++) {
@@ -22,10 +22,7 @@ int main() {
         if (same) {
             a.erase(i, b_len);
             a_len = a.length();
-            i = 0;
-        }
-        else {
-            i++;
+            i = -1;
         }
     }
 
