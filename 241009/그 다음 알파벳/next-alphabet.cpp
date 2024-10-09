@@ -4,10 +4,13 @@ using namespace std;
 int main() {
     char c;
     cin >> c;
+    int a = 0;
     if (c == 'z') {
-        c = 'a';
+        a = (int)'a' - 1;
     }
-    int a = (int)c + 1;
+    else {
+        a = (int)c + 1;
+    }
     cout << (char)a;
 
     return 0;
