@@ -9,7 +9,7 @@ int main() {
     int cnt = 0;
     for (int i = 0, j = 0; i < 100; i++) {
         if (ch[i] >= 'a' && ch[i] <= 'z') {
-            temp = (int)ch[i] + 32;
+            temp = (int)ch[i] - 32;
             a[j] = (char)temp;
             j++;
             cnt++;
