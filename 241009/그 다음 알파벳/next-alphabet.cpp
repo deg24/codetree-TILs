@@ -6,7 +6,7 @@ int main() {
     cin >> c;
     int a = 0;
     if (c == 'z') {
-        a = (int)'a' - 1;
+        a = (int)'a';
     }
     else {
         a = (int)c + 1;
